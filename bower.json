@@ -1,0 +1,13 @@
+{
+  "name": "mobile-boilerplate",
+  "dependencies": {
+    "jquery": "latest",
+    "underscore": "latest",
+    "normalize-scss": "latest"
+  },
+  "private": true,
+  "devDependencies": {
+    "fontawesome": "~4.1.0",
+    "modernizr": "~2.8.3"
+  }
+}

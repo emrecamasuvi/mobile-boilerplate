@@ -1,0 +1,17 @@
+// normalize lib for reset
+@import "../components/normalize-scss/_normalize.scss";
+
+// reset harder
+@import "partials/reset";
+
+// partials included
+@import "partials/buttons";
+
+// font included
+@import "../components/fontawesome/scss/font-awesome";
+
+// img path
+$img: "../img/";
+
+body {background-color: blue; color: white;}
+.sass {display: block; width: 217px; height: 238px; background:  url('#{$img}sass.gif') no-repeat; text-indent: -99em;}
