@@ -1,0 +1,44 @@
+// fontawesome icon font included
+@import "../../components/fontawesome/scss/font-awesome";
+
+// custom fonts: PT Sans, Open Sans
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('#{$font}OpenSans-Bold-webfont.woff') format('woff'),
+         url('#{$font}OpenSans-Bold-webfont.ttf') format('truetype'),
+         url('#{$font}OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('#{$font}OpenSans-Regular-webfont.woff') format('woff'),
+         url('#{$font}OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('#{$font}OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('#{$font}OpenSans-Semibold-webfont.woff') format('woff'),
+         url('#{$font}OpenSans-Semibold-webfont.ttf') format('truetype'),
+         url('#{$font}OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pt_sansbold';
+    src: url('#{$font}PTS75F-webfont.woff') format('woff'),
+         url('#{$font}PTS75F-webfont.ttf') format('truetype'),
+         url('#{$font}PTS75F-webfont.svg#pt_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ptsansbold {font-family: 'pt_sansbold', sans-serif;}
+.opensans {font-family: 'open_sansregular', sans-serif;}
+.opensansbold {font-family: 'open_sansbold', sans-serif;}
+.opensanssemibold {font-family: 'open_sanssemibold', sans-serif;}

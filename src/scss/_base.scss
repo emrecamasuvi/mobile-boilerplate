@@ -1,0 +1,17 @@
+// normalize lib for reset
+@import "../components/normalize-scss/_normalize.scss";
+
+// reset harder
+@import "partials/reset";
+
+// import paths in case of necessity
+@import "partials/paths";
+
+// variables
+@import "partials/variables";
+
+// include fonts
+@import "partials/fonts";
+
+// partials included
+@import "partials/buttons";

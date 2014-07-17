@@ -1,0 +1,31 @@
+// ### colors ###
+// black, gray, white
+$white:                 #fff !default;
+$darkwhite:             #eee !default;
+$gray:                  #bdc3c7 !default;
+$darkgray:              #7f8c8d !default;
+$black:                 #1e1f1f !default;
+$darkblack:             #151617 !default;
+
+// accent colors
+$pink:                  #e10b7a !default;
+$green:                 #97be1f !default;
+$orange:                #e67e22 !default;
+$red:                   #c0392b !default;
+
+
+// Scaffolding
+// -------------------------
+$bodyBackground:        $white !default;
+$textColor:             $black !default;
+
+// sistemin bekledigi degerler
+$stickyfooterheight:    274px !default;
+// tabproduct productlist icin gerekli
+$tabproductimage_width_x: 216px !default;
+$tabproductimage_width_y: 216px !default;
+// urun detay sayfasi icin gerekli
+$productimage_width_x: 470px !default;
+$productimage_width_y: 470px !default;
+// urun detay sayfasi thumbnailleri
+$widthveradius: 45px !default;
