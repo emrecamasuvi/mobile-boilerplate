@@ -38,7 +38,56 @@
     font-style: normal;
 }
 
-.ptsansbold {font-family: 'pt_sansbold', sans-serif;}
-.opensans {font-family: 'open_sansregular', sans-serif;}
-.opensansbold {font-family: 'open_sansbold', sans-serif;}
-.opensanssemibold {font-family: 'open_sanssemibold', sans-serif;}
+// sass font variables
+$opensans: 'open_sansregular', sans-serif !default;
+$opensansbold: 'open_sansbold', sans-serif !default;
+$opensanssemibold: 'open_sanssemibold', sans-serif !default;
+$ptsansbold: 'pt_sansbold', sans-serif !default;
+
+@mixin ptsansbold() {
+  font-family: $ptsansbold;
+}
+@mixin opensans() {
+  font-family: $opensans;
+}
+@mixin opensansbold() {
+  font-family: $opensansbold;
+}
+@mixin opensanssemibold() {
+  font-family: $opensanssemibold;
+}
+@mixin fontshort($size: $baseFontSize, $lineHeight: $baseLineHeight) {
+  font-size: $size;
+  line-height: $lineHeight;
+}
+@mixin ptsansboldshort($size: $baseFontSize, $lineHeight: $baseLineHeight) {
+  @include ptsansbold();
+  @include fontshort($size, $lineHeight);
+}
+@mixin opensansshort($size: $baseFontSize, $lineHeight: $baseLineHeight) {
+  @include opensans();
+  @include fontshort($size, $lineHeight);
+}
+@mixin opensansboldshort($size: $baseFontSize, $lineHeight: $baseLineHeight) {
+  @include opensansbold();
+  @include fontshort($size, $lineHeight);
+}
+@mixin opensanssemiboldshort($size: $baseFontSize, $lineHeight: $baseLineHeight) {
+  @include opensanssemibold();
+  @include fontshort($size, $lineHeight);
+}
+
+// font classes
+.ptsansbold {@include ptsansbold();}
+.opensans {@include opensans();}
+.opensansbold {@include opensansbold();}
+.opensanssemibold {@include opensanssemibold();}
+
+// font sizes
+.fz10 {font-size: 0.625rem;}
+.fz12 {font-size: 0.75rem;}
+.fz14 {font-size: 0.875rem;}
+.fz18 {font-size: 1.125rem;}
+.fz22 {font-size: 1.375rem;}
+.fz24 {font-size: 1.5rem;}
+.fz26 {font-size: 1.625rem;}

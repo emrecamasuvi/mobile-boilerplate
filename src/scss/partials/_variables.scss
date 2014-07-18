@@ -13,19 +13,38 @@ $green:                 #97be1f !default;
 $orange:                #e67e22 !default;
 $red:                   #c0392b !default;
 
+// button colors
+$greenbutton:           #67a814 !default;
+$greenbuttonborder:     #4d7b12 !default;
+$fuschiabutton:         #d4288d !default;
+$fuschiabuttonborder:   #ae0d6c !default;
 
-// Scaffolding
-// -------------------------
+// colors
+.white {color: $white;}
+.whitebg {background-color: $white;}
+.darkwhite {color: $darkwhite;}
+.darkwhitebg {background-color: $darkwhite;}
+.gray {color: $gray;}
+.graybg {background-color: $gray;}
+.darkgray {color: $darkgray;}
+.darkgraybg {background-color: $darkgray;}
+.black {color: $black;}
+.blackbg {background-color: $black;}
+.darkblack {color: $darkblack;}
+.darkblackbg {background-color: $darkblack;}
+
+// accent colors
+.pink {color: $pink;}
+.pinkbg {background-color: $pink;}
+.green {color: $green;}
+.greenbg {background-color: $green;}
+.orange {color: $orange;}
+.orangebg {background-color: $orange;}
+.red {color: $red;}
+.redbg {background-color: $red;}
+
+// font, text settings
 $bodyBackground:        $white !default;
-$textColor:             $black !default;
-
-// sistemin bekledigi degerler
-$stickyfooterheight:    274px !default;
-// tabproduct productlist icin gerekli
-$tabproductimage_width_x: 216px !default;
-$tabproductimage_width_y: 216px !default;
-// urun detay sayfasi icin gerekli
-$productimage_width_x: 470px !default;
-$productimage_width_y: 470px !default;
-// urun detay sayfasi thumbnailleri
-$widthveradius: 45px !default;
+$textColor:             $darkblack !default;
+$baseFontSize:          1em !default;
+$baseLineHeight:        1.4 !default;

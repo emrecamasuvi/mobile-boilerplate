@@ -1,1 +1,10 @@
-.button {background-color: red;}
+// global buttons
+.button {border: 0; display: inline-block; border-radius: 5px; font-size: 14px; line-height: 14px; padding: 13px 70px; border-bottom: 4px solid transparent; color: $white; font: 14px/1 $opensans;}
+.green-button {
+  background-color: $greenbutton; border-bottom-color: $greenbuttonborder;
+  &.active {background-color: $greenbuttonborder;}
+}
+.fuschia-button {
+  background-color: $fuschiabutton; border-bottom-color: $fuschiabuttonborder;
+  &.active {background-color: $fuschiabuttonborder;}
+}

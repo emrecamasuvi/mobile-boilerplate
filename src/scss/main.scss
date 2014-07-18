@@ -1,29 +1,7 @@
 // import partials from base
 @import "base";
 
-body {background-color: $white; color: $black;}
+body {background-color: $bodyBackground; color: $textColor;}
+
 .sass {display: block; width: 217px; height: 238px; background:  url('#{$img}sass.gif') no-repeat; text-indent: -99em;}
 
-// colors
-.white {color: $white;}
-.whitebg {background-color: $white;}
-.darkwhite {color: $darkwhite;}
-.darkwhitebg {background-color: $darkwhite;}
-.gray {color: $gray;}
-.graybg {background-color: $gray;}
-.darkgray {color: $darkgray;}
-.darkgraybg {background-color: $darkgray;}
-.black {color: $black;}
-.blackbg {background-color: $black;}
-.darkblack {color: $darkblack;}
-.darkblackbg {background-color: $darkblack;}
-
-// accent colors
-.pink {color: $pink;}
-.pinkbg {background-color: $pink;}
-.green {color: $green;}
-.greenbg {background-color: $green;}
-.orange {color: $orange;}
-.orangebg {background-color: $orange;}
-.red {color: $red;}
-.redbg {background-color: $red;}

@@ -10,8 +10,7 @@
 // variables
 @import "partials/variables";
 
-// include fonts
+// include mixins and partials
 @import "partials/fonts";
-
-// partials included
 @import "partials/buttons";
+@import "partials/mixins";

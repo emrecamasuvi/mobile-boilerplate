@@ -91,7 +91,7 @@ module.exports = function(grunt) {
         },
         expand: true,
         cwd: 'src/',
-        src: ['scss/*.scss'],
+        src: ['scss/**/*.scss'],
         dest: 'dist/css/',
         flatten: true,
         ext: '.css'
@@ -223,7 +223,7 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('minify', ['jshint', 'uglify', 'cssmin', 'copy', 'imagemin', 'htmlmin']);
-  grunt.registerTask('onChange', ['newer:jshint', 'newer:sass:dev', 'newer:autoprefixer:single_file', 'concat', 'newer:copy', 'notify:watch']);
+  grunt.registerTask('onChange', ['newer:jshint', 'sass:dev', 'newer:autoprefixer:single_file', 'concat', 'newer:copy', 'notify:watch']);
   grunt.registerTask('build', ['clean', 'jshint', 'sass:dist', 'htmlmin', 'imagemin', 'concat', 'copy']);
   grunt.registerTask('server', ['clean', 'connect', 'onChange', 'copy', 'watch']);
   grunt.registerTask('default', ['jshint', 'sass:dev']);
